@@ -19,7 +19,8 @@ export default function Home() {
 
 function Header() {
   return (
-    <header>Cookie Stand</header>
+    
+    <header className="bg-green-500 color">Cookie Stand</header>
   )
 }
 
@@ -31,7 +32,7 @@ function CookieForm() {
   }
   
   return (
-    <form className="flex-col w-2/3 gap-2 p-4 mx-auto bg-green-500 border-green-300 rounded-lg shadow-lg">
+    <form className="flex-col w-2/3 gap-2 p-4 mx-auto bg-green-300 border-green-500 rounded-lg shadow-lg">
       <legend>Create Cookie Stand</legend>
       <div>
         <label htmlFor="location">Location</label>
@@ -56,6 +57,6 @@ function CookieForm() {
 
 function Footer() {
   return (
-    <footer>&copy; 2023</footer>
+    <footer className="bg-green-500 color">&copy; 2023</footer>
   )
 }
